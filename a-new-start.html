@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Rob Graham</title>
+        <title>A New Start</title>
         <link rel="stylesheet" href="http://rgraham717.github.io/theme/css/main.css" />
 
         <!--[if IE]>
@@ -14,30 +14,46 @@
         <header id="banner" class="body">
                 <h1><a href="http://rgraham717.github.io/">Rob Graham  <strong>Networking, code, and the kitchen sink</strong></a></h1>
                 <nav><ul>
-                    <li><a href="http://rgraham717.github.io/category/blog.html">Blog</a></li>
+                    <li class="active"><a href="http://rgraham717.github.io/category/blog.html">Blog</a></li>
                 </ul>
                 </nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://rgraham717.github.io/a-new-start.html" rel="bookmark"
+           title="Permalink to A New Start">A New Start</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://rgraham717.github.io/a-new-start.html">A New Start</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <span>Mon 04 January 2016</span>
 <span>| tags: <a href="http://rgraham717.github.io/tag/pelican.html">pelican</a><a href="http://rgraham717.github.io/tag/blog.html">blog</a><a href="http://rgraham717.github.io/tag/python.html">python</a></span>
-</footer><!-- /.post-info --><h2>A New Start on a New Blogging Platform</h2>
+</footer><!-- /.post-info -->      <h2>A New Start on a New Blogging Platform</h2>
 <p>In doing a fairly substantial amout of research on blogging platforms, and most importantly, for <strong>free</strong>, I came to the conclusion that it would be great if I could find a way to leverage <a href="https://pages.github.com/">Github Pages</a> and use some kind of statically generated blogging platform.  I found myself on this quest after watching a course on <a href="https://app.pluralsight.com/library/courses/static-site-generator-build-better-blog">Pluralsight</a> that talked about this very thing.  This course had me looking at JavaScript based frameworks like <a href="http://hexo.io/">Hexo</a> and <a href="http://docpad.org/">Docpad</a>, but being a Python evangelist, I wanted something that leveraged my favorite scripting language.  Enter <a href="http://blog.getpelican.com/">Pelican</a>.</p>
 <h3>Pelican - A Static Site Generator, Powered by Python</h3>
 <p>Oooh, I liked the sound of that.  Time to spin up a new VirtualEnv and give it a go! </p>
 <p>A simple <code>pip install pelican</code> will get you started. Pelican supports writing content in reStructuredText out of the box, but I prefer to use Markdown as its more widely adopted, and in my opinion, a little easier to work with.  You need to install the <a href="http://pypi.python.org/pypi/Markdown">Markdown</a> library as well with a <code>pip install markdown</code>.  Bootstrapping your site is a simple one line command from Pelican.</p>
 <div class="highlight"><pre>pelican-quickstart
-</pre></div><p><a href="http://rgraham717.github.io/a-new-start.html#disqus_thread">comments</a></p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </aside><!-- /#featured -->
-            </ol><!-- /#posts-list -->
-            </section><!-- /#content -->
+</pre></div>
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "a-new-start.html";
+        var disqus_url = "http://rgraham717.github.io/a-new-start.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//rgraham717.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
